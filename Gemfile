@@ -18,6 +18,7 @@ gem 'webpacker'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
+  gem 'annotate'
 end
 
 group :development, :test do
@@ -27,4 +28,8 @@ group :development, :test do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'dotenv-rails'
+  gem 'rspec-rails'
+  gem 'rubocop'
+  gem 'rubocop-rails'
+  gem 'rubocop-performance'
 end
