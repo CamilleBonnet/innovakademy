@@ -1,17 +1,18 @@
 <template>
   <div id="app">
     <Navbar />
+    <router-view/>
     <p>{{message}}</p>
   </div>
 </template>
 
 <script>
-import Navbar from './shared/navbar'
+import Navbar from './shared/Navbar'
 export default {
   components: { Navbar },
   data() {
     return {
-      message: "fl;dkhgj",
+      message: "Betty's website",
     }
   }
 }

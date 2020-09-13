@@ -1,6 +1,6 @@
 <template>
   <div>
-    NAVBAR
+    ERROR PAGE
   </div>
 </template>
 
